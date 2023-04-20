@@ -182,6 +182,10 @@ publish/
 # in these scripts will be unencrypted
 PublishScripts/
 
+# Msix packager
+Packager/
+
+
 # NuGet Packages
 *.nupkg
 # NuGet Symbol Packages

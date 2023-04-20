@@ -40,13 +40,13 @@
         <Button Name="startGameButton" Content="Start Game" Canvas.Left="403" Canvas.Top="252" Height="40" Width="138" Click="StartButtonClick"/>
         <Button Name="infoButton" Content="Info" Canvas.Left="403" Canvas.Top="305" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" Click="InfoButtonClick"/>
         <Button Name="quitGameButton" Content="Quit" Canvas.Left="403" Canvas.Top="358" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" Click="QuitButtonClick"/>
-        <Label Name="aboutGameLabel" Canvas.Left="96" Canvas.Top="148" Height="354" Width="757" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="35" Visibility="Hidden">
-            <TextBlock TextWrapping="Wrap" Text="Game on similar way to crossy road. You're trying to get your player to the finish line, which is all the way up.
+        <Label Name="aboutGameLabel" Canvas.Left="96" Canvas.Top="148" Height="295" Width="762" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="35" Visibility="Hidden">
+            <TextBlock TextWrapping="Wrap" Text="You're trying to get your player to the finish line, which is all the way up.
 Meanwhile, the enemy is coming from the right. Every time you touch the finish line, you get one more point.
-The game ends when you touch an enemy 3 times.                                             To mute the background music, press the M key." Foreground="White" Height="332" Width="753"/>
+The game ends when you touch an enemy 3 times.                                             To mute the background music, press the M key." Foreground="White" Height="303" Width="757"/>
 
         </Label>
-        <Button Name="backButton" Content="Back" Canvas.Left="413" Canvas.Top="487" Height="39" Width="128" Visibility="Hidden" Click="BackButtonClick" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Name="backButton" Content="Back" Canvas.Left="403" Canvas.Top="462" Height="39" Width="128" Visibility="Hidden" Click="BackButtonClick" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Image Name="soundOnImage" Source="/images/sound_on.png" Height="53" Canvas.Left="835" Canvas.Top="10" Width="65"/>
         <Image Name="soundOffImage" Source="/images/sound_off.png" Height="53" Canvas.Left="835" Canvas.Top="10" Width="65" Visibility="Hidden"/>
 
