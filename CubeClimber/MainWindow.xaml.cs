@@ -45,7 +45,7 @@ namespace CubeClimber
         Color[] labelColors = new Color[] { Color.FromRgb(0, 180, 216), Color.FromRgb(238, 97, 35), Color.FromRgb(217, 4, 41), Color.FromRgb(255, 89, 94), Color.FromRgb(244, 213, 141) };
         Color[] canvasColors = new Color[] { Color.FromRgb(43, 45, 66), Color.FromRgb(0, 20, 39) };
         Color[] playerColors = new Color[] { Color.FromRgb(0, 255, 0), Color.FromRgb(234, 140, 85), Color.FromRgb(255, 255, 255), Color.FromRgb(205, 180, 219) };
-        Color[] enemyColors = new Color[] { Color.FromRgb(255, 0, 0), Color.FromRgb(255, 255, 0), Color.FromRgb(0, 255, 255), Color.FromRgb(255, 0, 255), Color.FromRgb(51, 92, 103), Color.FromRgb(242, 84, 45), Color.FromRgb(2, 195, 154) };
+        Color[] enemyColors = new Color[] { Color.FromRgb(242, 95, 92), Color.FromRgb(255, 0, 0), Color.FromRgb(255, 255, 0), Color.FromRgb(0, 255, 255), Color.FromRgb(255, 0, 255), Color.FromRgb(51, 92, 103), Color.FromRgb(242, 84, 45), Color.FromRgb(2, 195, 154) };
 
         MediaPlayer nextRoundMediaPlayer = new MediaPlayer();
         MediaPlayer hitMediaPlayer = new MediaPlayer();
