@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CubeClimber", "CubeClimber\CubeClimber.csproj", "{823D26FB-8657-4A8D-B60E-29256A1AEC03}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Packager", "Packager\Packager.wapproj", "{DA9F1A0D-E397-4D95-8F3D-69C703B17BA1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
