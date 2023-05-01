@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CubeClimber"
         mc:Ignorable="d"
-        Title="Cube Climber" Height="600" Width="945" ResizeMode="NoResize" ShowInTaskbar="False" Closing="WindowClosing" KeyDown="KeyDownMute">
+        Title="Cube Climber" Height="600" Width="945" ResizeMode="NoResize">
     <Canvas  Name="myCanvas" Background="Green" >
         <Rectangle Name="player" Height="25" Canvas.Left="460" Fill="Black" Canvas.Top="549" Width="24" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Rectangle Name="finishLane" Tag="finishTag" Height="95" Fill="White" Stroke="Black" Width="945" HorizontalAlignment="Center" VerticalAlignment="Top"/>
@@ -37,16 +37,16 @@
 
         <Label x:Name="restartGameLabel" Content="Click Enter for restart" Canvas.Left="321" Canvas.Top="319"  FontSize="32" Background="White" Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Center" />
         <Label x:Name="quitGameLabel" Content="Click Escape for quit.." Canvas.Left="321" Canvas.Top="372"  FontSize="32" Background="White" Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Center" />
-        <Button Name="startGameButton" Content="Start Game" Canvas.Left="403" Canvas.Top="252" Height="40" Width="138" Click="StartButtonClick"/>
-        <Button Name="infoButton" Content="Info" Canvas.Left="403" Canvas.Top="305" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" Click="InfoButtonClick"/>
-        <Button Name="quitGameButton" Content="Quit" Canvas.Left="403" Canvas.Top="358" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" Click="QuitButtonClick"/>
+        <Button Name="startGameButton" Content="Start Game" Canvas.Left="403" Canvas.Top="252" Height="40" Width="138"/>
+        <Button Name="infoButton" Content="Info" Canvas.Left="403" Canvas.Top="305" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <Button Name="quitGameButton" Content="Quit" Canvas.Left="403" Canvas.Top="358" Height="40" Width="138" HorizontalAlignment="Center" VerticalAlignment="Top" />
         <Label Name="aboutGameLabel" Canvas.Left="96" Canvas.Top="148" Height="295" Width="762" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="35" Visibility="Hidden">
             <TextBlock TextWrapping="Wrap" Text="You're trying to get your player to the finish line, which is all the way up.
 Meanwhile, the enemy is coming from the right. Every time you touch the finish line, you get one more point.
 The game ends when you touch an enemy 3 times.                                             To mute the background music, press the M key." Foreground="White" Height="303" Width="757"/>
 
         </Label>
-        <Button Name="backButton" Content="Back" Canvas.Left="403" Canvas.Top="462" Height="39" Width="128" Visibility="Hidden" Click="BackButtonClick" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Name="backButton" Content="Back" Canvas.Left="403" Canvas.Top="462" Height="39" Width="128" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Image Name="soundOnImage" Source="/images/sound_on.png" Height="53" Canvas.Left="835" Canvas.Top="10" Width="65"/>
         <Image Name="soundOffImage" Source="/images/sound_off.png" Height="53" Canvas.Left="835" Canvas.Top="10" Width="65" Visibility="Hidden"/>
 
